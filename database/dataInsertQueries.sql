@@ -1,0 +1,45 @@
+insert into Hospitals values
+(1, "Apollo Hospitals"),
+(2, "Jawaharlal Nehru Medical College and Hospital"),
+(3, "Indira Gandhi Institute of Medical Sciences (IGIMS)"),
+(4, "AIIMS - All India Institute Of Medical Science");
+
+insert into Psychiatrists values
+(1, "Psy1", 1),
+(2, "Psy2", 1),
+(3, "Psy3", 2),
+(4, "Psy4", 3),
+(5, "Psy5", 4),
+(6, "Psy6", 4);
+
+insert into Patients (id, name, address, email, password, photo, PsychiatristID) values
+(1, 'Patient1', 'Old Housing Board, Rohtak', 'patient1@gmail.com', 'Patient@123', 'Images/photo1.jpg', 1),
+(2, 'Patient2', 'Old Housing Board, Rohtak', 'patient2@gmail.com', 'Patient@123', 'Images/photo2.jpg', 1),
+(3, 'Patient3', 'Old Housing Board, Rohtak', 'patient3@gmail.com', 'Patient@123', 'Images/photo3.jpg', 1),
+(4, 'Patient4', 'Old Housing Board, Rohtak', 'patient4@gmail.com', 'Patient@123', 'Images/photo4.jpg', 1),
+(5, 'Patient5', 'Old Housing Board, Rohtak', 'patient5@gmail.com', 'Patient@123', 'Images/photo5.jpg', 1),
+(6, 'Patient6', 'Old Housing Board, Rohtak', 'patient6@gmail.com', 'Patient@123', 'Images/photo6.jpg', 2),
+(7, 'Patient7', 'Old Housing Board, Rohtak', 'patient7@gmail.com', 'Patient@123', 'Images/photo7.jpg', 2),
+(8, 'Patient8', 'Old Housing Board, Rohtak', 'patient8@gmail.com', 'Patient@123', 'Images/photo8.jpg', 2),
+(9, 'Patient9', 'Old Housing Board, Rohtak', 'patient9@gmail.com', 'Patient@123', 'Images/photo9.jpg', 2),
+(10, 'Patient10', 'Old Housing Board, Rohtak', 'patient10@gmail.com', 'Patient@123', 'Images/photo10.jpg', 2),
+(11, 'Patient11', 'Old Housing Board, Rohtak', 'patient11@gmail.com', 'Patient@123', 'Images/photo11.jpg', 3),
+(12, 'Patient12', 'Old Housing Board, Rohtak', 'patient12@gmail.com', 'Patient@123', 'Images/photo12.jpg', 3),
+(13, 'Patient13', 'Old Housing Board, Rohtak', 'patient13@gmail.com', 'Patient@123', 'Images/photo13.jpg', 3),
+(14, 'Patient14', 'Old Housing Board, Rohtak', 'patient14@gmail.com', 'Patient@123', 'Images/photo14.jpg', 3),
+(15, 'Patient15', 'Old Housing Board, Rohtak', 'patient15@gmail.com', 'Patient@123', 'Images/photo15.jpg', 3),
+(16, 'Patient16', 'Old Housing Board, Rohtak', 'patient16@gmail.com', 'Patient@123', 'Images/photo16.jpg', 4),
+(17, 'Patient17', 'Old Housing Board, Rohtak', 'patient17@gmail.com', 'Patient@123', 'Images/photo17.jpg', 4),
+(18, 'Patient18', 'Old Housing Board, Rohtak', 'patient18@gmail.com', 'Patient@123', 'Images/photo18.jpg', 4),
+(19, 'Patient19', 'Old Housing Board, Rohtak', 'patient19@gmail.com', 'Patient@123', 'Images/photo19.jpg', 4),
+(20, 'Patient20', 'Old Housing Board, Rohtak', 'patient20@gmail.com', 'Patient@123', 'Images/photo20.jpg', 4),
+(21, 'Patient21', 'Old Housing Board, Rohtak', 'patient21@gmail.com', 'Patient@123', 'Images/photo21.jpg', 5),
+(22, 'Patient22', 'Old Housing Board, Rohtak', 'patient22@gmail.com', 'Patient@123', 'Images/photo22.jpg', 5),
+(23, 'Patient23', 'Old Housing Board, Rohtak', 'patient23@gmail.com', 'Patient@123', 'Images/photo23.jpg', 5),
+(24, 'Patient24', 'Old Housing Board, Rohtak', 'patient24@gmail.com', 'Patient@123', 'Images/photo24.jpg', 5),
+(25, 'Patient25', 'Old Housing Board, Rohtak', 'patient25@gmail.com', 'Patient@123', 'Images/photo25.jpg', 5),
+(26, 'Patient26', 'Old Housing Board, Rohtak', 'patient26@gmail.com', 'Patient@123', 'Images/photo26.jpg', 6),
+(27, 'Patient27', 'Old Housing Board, Rohtak', 'patient27@gmail.com', 'Patient@123', 'Images/photo27.jpg', 6),
+(28, 'Patient28', 'Old Housing Board, Rohtak', 'patient28@gmail.com', 'Patient@123', 'Images/photo28.jpg', 6),
+(29, 'Patient29', 'Old Housing Board, Rohtak', 'patient29@gmail.com', 'Patient@123', 'Images/photo29.jpg', 6),
+(30, 'Patient30', 'Old Housing Board, Rohtak', 'patient30@gmail.com', 'Patient@123', 'Images/photo30.jpg', 6);
