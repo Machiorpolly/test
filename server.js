@@ -29,7 +29,8 @@ sequelize
 app.use("/api", api);
 app.use("/Images", express.static("./Images"));
 app.use((error, req, res, next) => {
-  console.log("This is the rejected field ->", error.field);
+  console.log(error);
+  res.status(500).send(error);
 });
 
 app.all("*", (req, res) => {
